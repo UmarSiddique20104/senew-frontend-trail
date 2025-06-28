@@ -35,7 +35,7 @@ const Table = () => {
     };
     return (
         <div className="overflow-x-auto bg-grey-400 w-full">
-            <div className="w-full  rounded-lg shadow p-5">
+            <div className="w-full  rounded-lg shadow sm:p-5">
 
                 <table className="min-w-[520px]  w-full table-auto">
                     <TableHeader allSelected={allSelected} onSelectAll={toggleSelectAll} />
