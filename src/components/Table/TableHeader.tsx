@@ -5,7 +5,7 @@ interface Props {
     onSelectAll: (checked: boolean) => void;
 }
 const TableHeader: React.FC<Props> = ({ allSelected, onSelectAll }) => (
-    <thead className="bg-gray-100 text-primary font-inter text-sm">
+    <thead className="bg-gray-100 text-primary  font-inter  text-sm">
         <tr className="border-b border-[#CBCCCE]">
             <th className="p-3 text-left">
                 <div className="inline-flex items-center">
@@ -20,10 +20,10 @@ const TableHeader: React.FC<Props> = ({ allSelected, onSelectAll }) => (
                     </label>
                 </div>
             </th>
-            <th className="p-3 text-left  text-sm font-medium">Name</th>
-            <th className="p-3 text-left text-sm font-medium">Status</th>
-            <th className="p-3 text-left text-sm font-medium">Action</th>
-            <th className="p-3 text-left text-sm font-medium">Delete</th>
+            <th className="p-3 text-left font-inter  text-sm font-semibold">Name</th>
+            <th className="p-3 text-left text-sm font-semibold">Status</th>
+            <th className="p-3 text-left text-sm font-semibold">Action</th>
+            <th className="p-3 text-left text-sm font-semibold">Delete</th>
         </tr>
     </thead>
 )
