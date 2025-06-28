@@ -1,6 +1,6 @@
 import React from "react"
 // @ts-ignore
-import trashIcon from "../../assets/icon.png"
+import trashIcon from "../../assets/Icon.png"
 import { TableData } from "./types"
 
 interface RowProps extends TableData {
