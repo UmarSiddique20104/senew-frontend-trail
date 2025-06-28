@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Inter;
+  src: url('../src/assets/fonts/Inter_28pt-Regular.ttf');
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #141B29;
+  --color-secondary: #F15950;
+  --color-action: #00BDB0;
+  --color-border: #EEB3B0;
+  --font-inter: Inter, "sans-serif"
+}
