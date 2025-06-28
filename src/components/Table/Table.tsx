@@ -34,10 +34,10 @@ const Table = () => {
         });
     };
     return (
-        <div className="overflow-x-auto bg-white w-full">
-            <div className="w-full bg-white rounded-lg shadow p-5">
+        <div className="overflow-x-auto bg-grey-400 w-full">
+            <div className="w-full  rounded-lg shadow p-5">
 
-                <table className="min-w-[520px] bg-white w-full table-auto">
+                <table className="min-w-[520px]  w-full table-auto">
                     <TableHeader allSelected={allSelected} onSelectAll={toggleSelectAll} />
                     <tbody>
                         {dummyData?.map((row) => (
