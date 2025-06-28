@@ -18,7 +18,7 @@ const TableRow: React.FC<RowProps> = ({
     const rowId = `row-${id}`
     console.log("Select Row Hain->", selected)
 
-    return (<tr id={rowId} className=" hover:bg-gray-100 transition text-sm " >
+    return (<tr id={rowId} className="bg-white hover:bg-gray-100 transition text-sm " >
         <td className="p-3 ">
             <div className="inline-flex items-center">
                 <label className="flex items-center cursor-pointer relative">
