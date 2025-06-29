@@ -20,7 +20,7 @@ const TableHeader: React.FC<Props> = ({ allSelected, onSelectAll }) => (
                     </label>
                 </div>
             </th>
-            <th className="p-3 text-left font-inter  text-sm font-semibold">Name</th>
+            <th className="p-3 text-left text-sm font-semibold">Name</th>
             <th className="p-3 text-left text-sm font-semibold">Status</th>
             <th className="p-3 text-left text-sm font-semibold">Action</th>
             <th className="p-3 text-left text-sm font-semibold">Delete</th>
