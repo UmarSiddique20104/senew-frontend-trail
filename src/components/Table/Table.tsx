@@ -29,7 +29,7 @@ const Table = () => {
         setSelectRows((prev) => {
             console.log("Preview->", prev)
             const next = new Set(prev);
-            next.has(id) ? next.delete(id) : next.add(id);
+            next?.has(id) ? next.delete(id) : next?.add(id);
             return next;
         });
     };
@@ -41,7 +41,7 @@ const Table = () => {
                     <TableHeader allSelected={allSelected} onSelectAll={toggleSelectAll} />
                     <tbody>
                         {dummyData?.map((row) => (
-                            <TableRow key={row.id} {...row} selected={selectRows.has(row?.id)}
+                            <TableRow key={row?.id} {...row} selected={selectRows?.has(row?.id)}
                                 onToggle={() => toggleRow(row?.id)} />
                         ))}
                     </tbody>
